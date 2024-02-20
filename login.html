@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Login Page</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <script src="loginp.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <h1>Login</h1>
+         <img src="https://banner2.cleanpng.com/20190213/sbb/kisspng-computer-icons-portable-network-graphics-login-cli-jennie-bp-khi-c-yu-kaiexo-cng-ngy-c-5c649ebb391d63.823550061550098107234.jpg"><br>
+         <form onsubmit="return validate()" action="redir.html">
+            <label>UserName :<br> 
+            <input type="text" name="UserName" id="UserName" placeholder="ENTER USERNAME" required><br>
+            </label>
+            <label>Password : <br>
+            <input type="password" name="Password" id="Password" placeholder="ENTER PASSWORD" required><br>
+            </label>
+            <label class="a">
+            <input type="checkbox" checked="checkbox" name="remember">REMEMBER ME<br>
+            </label>
+            <button type="submit" id="but" onclick="validate()">Login</button>
+         </form>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+  margin: 20px;
+  text-align:center;
+  font-size:30px;
+  color:blue;
+  background-image:url('https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  }
+  .box{
+  border-radius: 20px;
+  width: 300px;
+  padding: 30px;
+  border: 2px solid orangered;
+  }
+  h1
+  {
+  color:red;
+  padding:0px;
+  margin:20px;
+  border:10px;
+  margin:auto;
+  }
+  label
+  {
+  margin:auto;
+  color:darkgreen;
+  font-size: 35px ;
+  }
+  input
+  {
+  margin:10px;
+  padding: 10px 20px;
+  border: solid rgb(255, 0, 0);
+  text-align: center;
+  }
+  button
+  {
+  color:white;
+  background:blue;
+  padding:14px 20px;
+  margin:8px 0;
+  cursor:pointer;
+  width:30%;
+  }
+  img{
+  width:200px;
+  height:200px;
+  }
+  label.a{
+  color:blueviolet;
+  background-color: rgba(240, 255, 254, 0.988);
+  font-size:10px;
+  font-family: 'Times New Roman', Times, serif;
+  padding:8px;
+  text-align: center;
+  }
